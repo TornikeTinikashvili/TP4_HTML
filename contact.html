@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Contact</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="contact">
+<img src="./banner800x200.jpg" alt="800x200">
+<h1>bienvenu sur mon site !</h1>
+<nav>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Gallerie</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+<form method="POST" action="monProgramme.php">
+<fieldset>
+    <legend>Contact</legend>
+    <div>
+        <label for="nom">Nom:</label>
+        <input name="nom" type="text" placeholder="Ex: Chris" minlength="2" maxlength="20" id="nom" required>
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input name="email" type="text" placeholder="Ex: contact@adrar.fr" id="email" required>
+    </div>
+    <div>
+        <label for="comments">Laissez un commentaire:</label> <br>
+        <textarea name="comments" placeholder="J'adore ce que vous faites"  cols="70" rows="10" id="comments"></textarea>
+    </div>
+    <div>
+        <input name="Envoyer" type="checkbox" id="envoyer" checked>
+        <label for="envoyer">Envoyer une copie par E-mail !</label>
+    </div>
+    <div>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Reset">
+    </div>
+</fieldset>
+</form>
+
+<footer>
+    <ul>
+        <li><a href="https://github.com/TornikeTinikashvili/TP4_HTML.git">GitHub</a></li>
+        <li><a href="https://github.com/TornikeTinikashvili/TP4_HTML.git">GitHub</a></li>
+        <li><a href="https://github.com/TornikeTinikashvili/TP4_HTML.git">GitHub</a></li>
+        <li><a href="https://github.com/TornikeTinikashvili/TP4_HTML.git">GitHub</a></li>
+    </ul>
+</footer>
+
+
+</body>
+</html>
